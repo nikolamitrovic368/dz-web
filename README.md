@@ -102,20 +102,6 @@ the dzdependabot GitHub account with the `packages:read` permission. This accoun
 was added to the `design-system` repository, so its token allows reading the
 repo's packages.
 
-## Repository Secrets
-
-There are a number of secrets needed for the CI workflow.
-To configure them go to https://github.com/Zwirner/web/settings/secrets/actions
-and for dependabot https://github.com/Zwirner/web/settings/secrets/dependabot
-
-#### READ_GH_PACKAGES_TOKEN
-
-Set on: Actions secrets
-
-This is a classic personal access token with read:packages scope in order to pull
-in the [`design-system`][design-system-repo] dependency. Currently, it matches
-the secret used by the Dependabot.
-
 ## Features
 
 - Live previews using `next-sanity`.

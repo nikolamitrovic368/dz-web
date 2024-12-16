@@ -12,11 +12,6 @@ Follow these instructions to set up a local environment of the webpage.
 
 2. Clone this repository in your machine using Git and enter the root folder.
 
-```sh
-git clone https://github.com/Zwirner/web.git
-cd ./web
-```
-
 3. Create a Github access token:
 
 - Go to https://github.com/settings/tokens
